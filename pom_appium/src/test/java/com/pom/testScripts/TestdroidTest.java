@@ -98,7 +98,7 @@ public class TestdroidTest {
 	@Test
 	public void testdroidAppTest(){
 		String expectedManufacturer= "Genymotion";
-		String expectedDeviceName= "Google Nexus 5";
+		String expectedDeviceName= "Google Nexus 9";
 		
 		landingPage = new LandingPage(driver);
 		deviceInfoPage = landingPage.clickOnDeviceInfoButton();
